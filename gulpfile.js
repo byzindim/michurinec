@@ -52,8 +52,8 @@
     gulp.task('deploy', function() {
 		var conn = ftp.create({
 		host:      'tsnmichurinec.ru',
-		user:      'u1595342',
-		password:  'GwyOIW96vRqDw02L',
+		user:      '',
+		password:  '',
 		parallel:  10,
 		log: gutil.log
 	});
