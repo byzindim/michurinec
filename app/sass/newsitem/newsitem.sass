@@ -1,0 +1,471 @@
+.news-item
+  position: relative
+  width:100%
+  height:100%
+  z-index: 0
+  display: flex
+  background: #FAF9F8
+  height: 150px
+
+  @media screen and ( max-width:1250px )
+    width:100%
+    height:150px
+  @media screen and ( max-width:1024px )
+    width:100%
+    height:150px
+
+.news-item__banner
+  height: 150px
+  background-size: no-repeat
+  background-image: url(../images/src/newsitem/bannerbig.png)
+  background-size: cover
+  background-repeat: no-repeat
+  display: flex
+  width: 100%
+  z-index: 0
+
+  @media screen and ( max-width:1250px )
+       height: 150px
+       margin-top: 0px 
+
+  @media screen and ( max-width:1024px )
+       height: 150px
+       margin-top: 0px 
+       background-image: url(../images/src/newsitem/bannerbig.png)
+       z-index: 0
+  @media screen and ( max-width:630px )
+       background-image: url(../images/src/newsitem/bannermiddle.png)
+  @media screen and ( max-width:410px )
+       background-image: url(../images/src/newsitem/bannermobile.png)
+       z-index: 0
+
+.news-item__information
+    display: flex
+    flex-direction: row
+    
+
+.news-item__information
+      display: flex
+      flex-direction: column
+      justify-content: start
+      margin-top: 70px
+      margin-left:352px
+      font-family: 'GeomatryLight'
+      font-style: normal
+      font-weight: 400
+      font-size: 40px
+      line-height: 50px
+      display: flex
+      align-items: start
+      letter-spacing: -0.005em
+      color: #FFFFFF
+      height: 95px
+      width: 597px
+      @media screen and ( max-width:1250px )
+        margin-top: 70px
+        margin-left:42px
+      @media screen and ( max-width:1024px )
+        margin-top:  70px
+        margin-left:20px
+      @media screen and ( max-width:410px )
+        margin-left:10px   
+        width: 100%
+        text-align: start
+
+
+///===========Article================/
+
+.article
+    height: 100%
+    display: flex
+    justify-content: center
+    margin-top:60px
+.article__container
+  
+    z-index: 0
+    display: flex
+    flex-direction: row
+    height: 100%
+.article__item
+    display: flex
+    flex-direction: column
+.article__item__img
+    position: relative
+    display: flex
+    height:360px
+    width: 803px
+    z-index: 2
+    justify-content: end
+  
+.article__item__img__item
+    position: absolute
+    background-image: url(../images/src/newsitem/newsitem.png)
+    height:360px
+    width: 803px
+    z-index: 2
+.article__item__img__name
+    z-index: 5
+    width: 95px
+    height: 32px
+    left: 1033px
+    top: 415px
+    background: #FF6D6D
+    border-radius: 30px
+    display: flex
+    justify-content: center
+    align-items: center
+    color: #ffff
+    margin-top:30px
+    margin-right:27px
+.article__item__data
+    font-family: 'GeomatryLight'
+    font-style: normal
+    font-weight: 400
+    font-size: 12px
+    line-height: 15px
+    display: flex
+    align-items: center
+    letter-spacing: -0.005em
+    text-transform: fuppercase
+    color: #6a6a79
+    margin-top:28px
+.article__item__title
+    font-family: 'GeomatryLight'
+    font-style: normal
+    font-weight: 400
+    font-size: 24px
+    line-height: 30px
+    display: flex
+    align-items: center
+    letter-spacing: -0.005em
+    color: #3C444E
+    margin-top:10px
+.article__item__subtitle
+    max-width: 804px
+.article__item__subtitle p 
+    font-family: 'GeomatryLight'
+    font-style: normal
+    font-weight: 400
+    font-size: 15px
+    line-height: 21px
+    display: flex
+    align-items: center
+    letter-spacing: -0.005em
+    color: #6A6A79
+    margin-top:20px
+.article__item__btns
+    margin-top: 50px
+    margin-left: 110px
+    display: flex
+    flex-direction: row
+    width: 561px
+    justify-content: space-between
+  
+.article__item__btn
+  display: flex
+  flex-direction: row
+.article__item__btn__back
+    font-family: 'GeomatryMedium'
+    font-style: normal
+    font-weight: 500
+    font-size: 14px
+    line-height: 18px
+    display: flex
+    align-items: center
+    letter-spacing: -0.005em
+    color: #6A6A79
+    margin-right: 12px
+.article__item__btn__next
+    font-family: 'GeomatryMedium'
+    font-style: normal
+    font-weight: 500
+    font-size: 14px
+    line-height: 18px
+    display: flex
+    align-items: center
+    letter-spacing: -0.005em
+    color: #6A6A79
+    margin-left: 12px
+.article__item__btn__arrow__right
+    background-image: url(../images/src/svg/newsitem/arrow_right.svg)
+    width:24px
+    height:24px
+.article__item__btn__arrow__left
+    background-image: url(../images/src/svg/newsitem/arrow_left.svg)
+    width:24px
+    height:24px
+.article__news
+   display: flex
+   flex-direction: column
+   margin-left: 21px
+.article__news__title
+  font-family: 'GeomatryLight'
+  font-style: normal
+  font-weight: 400
+  font-size: 24px
+  line-height: 30px
+  align-items: center
+  letter-spacing: -0.005em
+  color: #3C444E
+.article__news__cards
+  display: flex
+  flex-direction: column
+  margin-top: 25px
+  row-gap: 31px
+.article__news__card
+  display: flex
+  flex-direction: column
+  width:392px
+  height: 390px
+
+.article__news__cad__img
+  position: relative
+  display: flex
+  justify-content: end
+  width: 392px
+  height:215px
+.article__news__cad__img__name
+  display: flex
+  justify-content: center
+  align-items: center
+  margin-top:29px
+  margin-right: 30px
+  z-index: 5
+  width: 132px
+  height: 32px
+  left: 1406px
+  top: 469px
+  background: #6DCBFF
+  border-radius: 30px
+.article__news__cad__img__item
+  position: absolute
+  background-image: url(../images/src/newsitem/newsitemsmall.png)
+  width: 392px
+  height:215px
+  z-index: 0
+
+.article__news__card__main
+  display: flex
+  flex-direction: column
+  background: #FFFFFF
+  border: 0.5px solid #969696
+  height:175px
+.article__news__card__data
+  font-family: 'GeomatryLight'
+  font-style: normal
+  font-weight: 400
+  font-size: 12px
+  line-height: 15px
+  letter-spacing: -0.005em
+  text-transform: uppercase
+  color: #8C7F77
+  margin-top:30px
+  margin-left:20px
+.article__news__card__title a
+  font-family: 'GeomatryMedium'
+  font-style: normal
+  font-weight: 500
+  font-size: 16px
+  line-height: 20px
+  display: flex
+  align-items: center
+  letter-spacing: -0.005em
+  color: #000000
+  margin-top:10px
+  margin-left:20px
+.article__news__card__subtitle
+  font-family: 'GeomatryLight'
+  font-style: normal
+  font-weight: 400
+  font-size: 14px
+  line-height: 140.8%
+  letter-spacing: -0.005em
+  color: #6A6A79
+  margin-top:10px
+  margin-left:20px
+  padding-bottom: 30px
+.article__news__card__all
+  font-family: 'GeomatryMedium'
+  font-style: normal
+  font-weight: 500
+  font-size: 14px
+  line-height: 18px
+  display: flex
+  align-items: end
+  text-align: right
+  letter-spacing: -0.005em
+  text-decoration-line: underline
+  color: #6A6A79
+  margin-left: 305px
+  cursor: pointer
+
+.article__main__btns
+    height: 37px
+    display: none
+    justify-content: center
+    align-items: center
+    margin-top:25px
+.article__main__btn
+    width: 10px
+    height: 10px
+    background: #D9D9D9   
+._btn_active
+    background: #8C7F77 
+.article__main__btns__container
+    width:50px
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    margin-right: 5px
+    
+
+@media screen and ( max-width:1250px )
+ .article
+   height: 100%
+   margin-top:39px
+ .article__container
+    display: flex
+    flex-direction: column
+    height: 100%
+ .article__item__img
+    width: 940px
+ .article__item__img__item
+    background-image: url(../images/src/newsitem/newsitem.png)
+    width:100%
+ .article__news__cards div
+    &:nth-child(3)
+      display: none
+ .article__news__cards
+   flex-direction: row
+   column-gap: 20px
+ .article__news
+   margin-top:40px
+   margin-left:0px
+ .article__main__btns
+   display: flex
+ .article__news__cad__img
+  width: 460px
+ .article__news__cad__img__item
+   width: 460px
+ .article__news__card
+   width: 460px
+ .article__item
+   justify-content: center
+   align-items: center
+ .article__item__btns
+   margin: 0px
+   margin-top:30px
+ .article__item__subtitle
+   height: 100%
+   border-bottom: 0.5px solid #D9D9D9
+ .article__item__title
+   width:448px
+   margin-right:360px
+ .article__item__data
+    margin-right:730px
+ .article__news__card__all
+   display: none
+ .article__item__img__name
+   display: none
+@media screen and ( max-width:985px )
+ .article__item__img
+   max-width: 728px
+ .article__item__subtitle
+   max-width: 728px
+ .article__item__title
+   margin-right:280px
+ .article__item__data
+    margin-right:650px
+ 
+ .article__news__cad__img
+  width: 359px
+ .article__news__cad__img__item
+   width: 359px
+ .article__news__card
+   width: 359px
+ .article__news__cards
+   column-gap: 10px
+@media screen and ( max-width:776px )
+ .article__news__cards
+   flex-direction: column
+   justify-content: center
+   align-items: center
+ .article
+   margin-top:39px
+ .article__news__title
+    text-align: center
+ .article__item__subtitle
+    max-width: 528px
+    height: 100%
+ .article__item__img
+    max-width: 528px
+ .article__item__title
+    margin-right:80px
+ .article__item__data
+    margin-right:450px
+@media screen and ( max-width:584px )
+ .article
+   margin-top:18px
+
+
+ .article__news 
+    margin-top: 20px
+ .article__item__img
+    max-width: 428px
+ .article__item__subtitle
+    max-width: 400px
+    height: 100%
+ .article__item__btn__next
+   display: none
+ .article__item__btn__back
+   display: none
+ .article__item__btns
+   max-width: 400px
+ .article__item__title
+    max-width: 350px
+    margin-left: 35px
+ .article__item__data
+    margin-right:320px
+@media screen and ( max-width:458px )
+ .article
+   margin-top:18px
+ .article__container
+    max-width: 330px
+ .article__item__img
+    max-width: 320px
+    height:170px
+ .article__item__img__item
+    background-image: url(../images/src/newsitem/newsitemmobile.png)
+    width:100%
+    height:170px
+ .article__item__title
+    max-width: 310px
+    margin-left: 70px
+ .article__item__data
+    margin-top:10px
+    margin-right: 180px
+    height:20px
+    width:140px
+   
+    
+ .article__item__subtitle
+    max-width: 320px
+ .article__item__btns
+   max-width: 320px
+ .article__news__cad__img
+  width: 320px
+ .article__news__cad__img__item
+   width: 320px
+ .article__news__card
+   width: 320px
+
+
+
+.bg-economy
+    background: #77B885
+.bg-finance
+    background: #FF6D6D
+.bg-business
+    background: #9C6DFF
+
+              

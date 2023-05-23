@@ -1,0 +1,37 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@splidejs/splide": "^4.0.7",
+    "@splidejs/splide-extension-video": "^0.7.1",
+    "browser-sync": "^2.27.10",
+    "compress-images": "^2.0.5",
+    "del": "^6.1.1",
+    "gifsicle": "^5.3.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^5.0.0",
+    "gulp-rsync": "^0.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify-es": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "jest": "^28.1.1",
+    "jest-environment-jsdom": "^28.1.1",
+    "pngquant-bin": "^6.0.0",
+    "sass": "^1.52.1",
+    "vinyl-ftp": "^0.6.1"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.6"
+  }
+}

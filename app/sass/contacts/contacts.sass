@@ -1,0 +1,478 @@
+.contacts
+  position: relative
+  width:100%
+  height:100%
+  z-index: 0
+  display: flex
+  background: #FAF9F8
+  height: 545px
+
+  @media screen and ( max-width:1250px )
+    width:100%
+    height:450px
+  @media screen and ( max-width:1024px )
+    width:100%
+    height:450px
+
+.contacts__banner
+  margin-top: 91px 
+  height: 450px
+  background-size: no-repeat
+  background-image: url(../images/src/contacts/bannerbig.png)
+  background-size: cover
+  background-repeat: no-repeat
+  display: flex
+  width: 100%
+  z-index: 0
+
+  @media screen and ( max-width:1250px )
+       height: 450px
+       margin-top: 0px 
+
+  @media screen and ( max-width:1024px )
+       height: 450px
+       margin-top: 0px 
+       background-image: url(../images/src/contacts/bannerbig.png)
+       z-index: 0
+  @media screen and ( max-width:630px )
+       background-image: url(../images/src/contacts/bannermiddle.png)
+  @media screen and ( max-width:410px )
+       background-image: url(../images/src/contacts/bannersmall.png)
+       z-index: 0
+
+.contacts__information
+    display: flex
+    flex-direction: row
+    
+
+.contacts__information
+      display: flex
+      flex-direction: column
+      justify-content: start
+      margin-top: 300px
+      margin-left:352px
+      font-family: 'GeomatryLight'
+      font-style: normal
+      font-weight: 400
+      font-size: 40px
+      line-height: 50px
+      display: flex
+      align-items: start
+      letter-spacing: -0.005em
+      color: #FFFFFF
+      height: 95px
+      max-width: 597px
+      @media screen and ( max-width:1250px )
+        margin-top: 300px
+        margin-left:43px
+      @media screen and ( max-width:1024px )
+        margin-top: 300px
+        margin-left:43px
+      @media screen and ( max-width:410px )
+        margin-left:10px   
+        text-align: start
+
+//====divisions===========//
+.divisions
+    height:750px
+    display: flex
+    justify-content: center
+    margin-top:92px
+.divisions__container
+    max-width: 1210px
+    
+
+.divisions__title
+    font-family: 'GeomatryMedium'
+    font-style: normal
+    font-weight: 500
+    font-size: 30px
+    line-height: 38px
+    letter-spacing: -0.005em
+    text-transform: uppercase
+    color: #3C444E
+
+
+.divisions__nav
+    margin-top:43px
+.divisions__nav__links
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-around
+.divisions__nav__link
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 100%
+    height: 50px
+    background: #FFFFFF
+    border: 0.5px solid #969696
+    -webkit-transition: all 0.8s ease
+    -moz-transition: all 0.8s ease
+    -o-transition: all 0.8s ease
+    transition: all 0.8s ease   
+._active-link
+    border-top: 2px solid #AA8031
+.divisions__nav__link._active-link a
+    color: #AA8031
+
+.divisions__nav__link a
+    font-family: 'GeomatryBold'
+    font-style: normal
+    font-weight: 700
+    font-size: 14px
+    line-height: 140.8%
+    letter-spacing: -0.005em
+    color: #757575
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 100%
+    height: 100%
+    cursor: pointer 
+
+.divisions__nav__link
+    &:hover
+      background: #23293f
+    &:active
+      background: #68584E
+      border: none
+.divisions__nav__link a
+    &:hover
+      color: #ffff
+
+.divisions__main
+    display: flex
+    flex-direction: column
+    max-width: 1210px
+    margin-top:43px
+    
+
+.divisions__information
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    flex: 1 1 1
+    margin-top:44px
+.divisions__information__map
+    width:796px
+    height:370px
+    background-image: url(../images/src/contacts/map.png)
+.divisions__information__contact
+    background: #FFFFFF
+    border: 0.5px solid #969696
+    margin-left:20px
+    width: 388px
+.divisions__information__contact__phone
+    display: flex
+    flex-direction: row
+    align-items: center
+    padding: 44px 37px 0px 37px
+.divisions__information__contact__phone__icon
+    background-image: url(../images/src/svg/contacts/phone.svg)
+    width:24px
+    height:24px
+.divisions__information__contact__phone__number a
+    font-family: 'GeomatryLight'
+    font-style: normal
+    font-weight: 400
+    font-size: 24px
+    line-height: 140.8%
+    letter-spacing: -0.005em
+    color: #6A6A79
+    margin-left: 21px
+
+.divisions__information__contact__email
+    display: flex
+    flex-direction: row
+    align-items: center
+    padding: 44px 0px 0px 37px
+.divisions__information__contact__email__icon
+    background-image: url(../images/src/svg/contacts/email.svg)
+    width:24px
+    height:24px
+.divisions__information__contact__email__name a
+    font-family: 'GeomatryLight'
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    line-height: 140.8%
+    letter-spacing: -0.005em
+    color: #6A6A79
+    margin-left: 21px
+
+
+.divisions__information__contact__adress
+    display: flex
+    flex-direction: row
+    align-items: center
+    padding: 44px 0px 0px 37px
+.divisions__information__contact__adress__icon
+    background-image: url(../images/src/svg/contacts/pin.svg)
+    width:24px
+    height:24px
+.divisions__information__contact__adress__name
+    font-family: 'GeomatryLight'
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    line-height: 140.8%
+    letter-spacing: -0.005em
+    color: #6A6A79
+    margin-left: 21px
+
+.divisions__information__contact__time
+    display: flex
+    flex-direction: row
+    align-items: center
+    padding: 44px 0px 0px 37px
+.divisions__information__contact__time__icon
+    background-image: url(../images/src/svg/contacts/clock.svg)
+    width:24px
+    height:24px
+.divisions__information__contact__time__name
+    font-family: 'GeomatryLight'
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    line-height: 140.8%
+    letter-spacing: -0.005em
+    color: #6A6A79
+    margin-left: 21px
+
+.division__network
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    margin-top: 70px
+.division__network__name
+    font-family: 'GeomatryLight'
+    font-style: normal
+    font-weight: 400
+    font-size: 24px
+    line-height: 30px
+    letter-spacing: -0.005em
+    color: #3C444E
+
+
+.division__network__social
+    display: flex
+    flex-direction: row
+    margin-left: 196px
+.division__network__social__link__adress a
+    font-family: 'GeomatryLight'
+    font-style: normal
+    font-weight: 400
+    font-size: 18px
+    line-height: 23px
+    display: flex
+    align-items: center
+    letter-spacing: -0.005em
+    color: #3C444E
+.division__network__social__link__answer
+    font-family: 'GeomatryLight'
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    line-height: 18px
+    display: flex
+    align-items: center
+    letter-spacing: -0.005em
+    color: #6A6A79
+.division__network__social__ikon
+    background-image: url(../images/src/svg/contacts/telegram.svg)
+    width:43px
+    height:43px
+    margin-left:18px
+
+
+
+.division__network__info
+    display: flex
+    flex-direction: row
+    margin-left: 200px
+.division__network__name__adress__email a
+    font-family: 'GeomatryLight'
+    font-style: normal
+    font-weight: 400
+    font-size: 18px
+    line-height: 23px
+    display: flex
+    align-items: center
+    letter-spacing: -0.005em
+    color: #3C444E
+.division__network__name__adress__answer
+    font-family: 'GeomatryLight'
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    line-height: 18px
+    display: flex
+    align-items: center
+    letter-spacing: -0.005em
+    color: #6A6A79
+.division__network__name__icon
+    background-image: url(../images/src/svg/contacts/post.svg)
+    width:43px
+    height:43px
+    margin-left:18px
+
+
+@media screen and ( max-width:1250px )
+    .divisions
+        margin-top:50px
+        height:1000px
+    .divisions__container
+        max-width:1100px     
+    .divisions__nav
+        margin-top:20px
+    .divisions__main
+        margin-top:44px
+    .divisions__title
+        margin-left:80px
+
+    .divisions__nav__links
+        justify-content: center
+    .divisions__nav__link
+        width:315px
+
+    .divisions__information
+        flex-direction: row
+        row-gap: 53px
+        column-gap: 100px
+      
+        justify-content: center
+        max-width:1005px
+    .divisions__information__map
+        width:937px
+        height:370px
+        background-image: url(../images/src/contacts/mapbig.png)
+    .division__network
+        flex-direction: column
+    .divisions__main
+        flex-direction: row
+    .division__network__info
+        margin-left:0px
+        margin-top:28px
+    .division__network__social
+        margin-left:0px
+        margin-top:28px
+    .division__network
+        margin-top:0px
+        justify-content: start
+    .divisions__information__contact
+        width:388px
+        height: 369px
+    .division__network__social__ikon
+        margin-left: 40px
+@media screen and ( max-width:1140px )
+    .divisions__container
+        max-width:1000px  
+    .divisions__information
+         max-width:900px
+    .divisions__nav__links
+        justify-content: center
+        align-items: center
+        max-width:100%
+
+    .divisions__title
+        margin-left:80px
+@media screen and ( max-width:965px )
+    .divisions
+        height: 1150px
+    .divisions__container
+        max-width:900px  
+    .divisions__information
+         max-width:800px
+    .divisions__nav__link
+        width:275px
+    .divisions__title
+        margin-left:80px
+    .divisions__information__map
+        width:830px
+        height:370px
+    .divisions__information
+        column-gap: 50px
+    .divisions__information__contact
+        width: 390px
+@media screen and ( max-width:840px )
+    .divisions__container
+        max-width:800px  
+    .divisions__information
+        column-gap: 10px
+        max-width: 700px
+    .divisions__nav__links
+        justify-content: center
+        align-items: center
+        width:100%
+    .divisions__nav__link
+        width:245px
+
+    .divisions__information__map
+        width:730px
+        height:370px
+    .divisions__information__contact
+        width:360px
+  
+@media screen and ( max-width:759px )
+    .divisions
+        height: 1200px
+    .divisions__main
+        max-width: 700px
+        display: flex
+        flex-direction: column
+        align-items: center
+    .divisions__container
+        max-width:700px  
+    .divisions__main
+        margin:0px
+    .divisions__information
+        column-gap: 10px
+        justify-content: center
+        align-items: center
+        margin-top:25px
+    .divisions__information__map
+        width:500px
+    .divisions__information__contact
+        width:320px
+@media screen and ( max-width:560px )
+    .divisions
+        height: 1300px
+    .divisions__main
+        max-width: 470px
+    .divisions__title
+        margin-left: 20px
+    .divisions__nav__links
+        flex-direction: column
+    .divisions__nav__link
+        margin-top:15px
+       
+    .divisions__container
+        max-width:520px  
+    .divisions__information
+        max-width:520px
+        height: 100%
+    .divisions__information__map
+        width:370px
+    .divisions__information__contact
+        width:320px
+@media screen and ( max-width:550px )
+     .divisions__title
+        font-size: 22px
+        text-align: center
+        margin-left: 0px
+     .divisions__information__map
+        width:320px
+     .divisions__information__contact
+        margin-left:0px
+
+            
+.divisions__main
+    display: none
+    overflow: hidden
+
+
+.divisions__main
+    &:target
+     display: block

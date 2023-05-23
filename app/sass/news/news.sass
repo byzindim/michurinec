@@ -1,0 +1,450 @@
+.news
+  position: relative
+  width:100%
+  height:100%
+  z-index: 0
+  display: flex
+  background: #FAF9F8
+  height: 450px
+
+  @media screen and ( max-width:1250px )
+    width:100%
+    height:450px
+  @media screen and ( max-width:1024px )
+    width:100%
+    height:450px
+
+.news__banner
+  height: 450px
+  background-size: no-repeat
+  background-image: url(../images/src/news/bannerbig.png)
+  background-size: cover
+  background-repeat: no-repeat
+  display: flex
+  width: 100%
+  z-index: 0
+
+  @media screen and ( max-width:1250px )
+       height: 450px
+       margin-top: 0px 
+
+  @media screen and ( max-width:1024px )
+       height: 450px
+       margin-top: 0px 
+       background-image: url(../images/src/news/bannerbig.png)
+       z-index: 0
+  @media screen and ( max-width:630px )
+       background-image: url(../images/src/news/bannermiddle.png)
+  @media screen and ( max-width:410px )
+       background-image: url(../images/src/news/bannermobile.png)
+       z-index: 0
+
+.news__information
+    display: flex
+    flex-direction: row
+    
+
+.news__information
+      display: flex
+      flex-direction: column
+      justify-content: start
+      margin-top: 300px
+      margin-left:352px
+      font-family: 'GeomatryLight'
+      font-style: normal
+      font-weight: 400
+      font-size: 40px
+      line-height: 50px
+      display: flex
+      align-items: start
+      letter-spacing: -0.005em
+      color: #FFFFFF
+      height: 95px
+      max-width: 597px
+      @media screen and ( max-width:1250px )
+        margin-top: 300px
+        margin-left:43px
+      @media screen and ( max-width:1024px )
+        margin-top: 300px
+        margin-left:43px
+      @media screen and ( max-width:410px )
+        margin-left:10px   
+        width: 100%
+        text-align: start
+
+
+//====================Smart=================//
+
+.market
+    height: 2400px
+    display: flex
+    justify-content: center
+    margin-top:70px
+.market__container
+    max-width:1217px
+    width: 100%
+.market__header
+    height: 64px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-direction: row
+.market__header__title
+    font-family: 'GeomatryMedium'
+    font-style: normal
+    font-weight: 500
+    font-size: 30px
+    line-height: 38px
+    letter-spacing: -0.005em
+    text-transform: uppercase
+    color: #3C444E
+.market__nav__items
+    display: flex
+    flex-direction: row
+    
+
+.market__nav__item a
+    font-family: 'GeomatryMedium'
+    font-style: normal
+    font-weight: 500
+    font-size: 14px
+    line-height: 140.8%
+    display: flex
+    align-items: center
+    letter-spacing: -0.005em
+    color: #757575
+    margin-right: 26px
+
+.market__nav__item a
+    &:active
+      color: #AA8031
+
+.market__nav__item a
+    &:hover
+      color: #AA8031
+
+
+      
+.market__main
+    margin-top:30px
+    margin-top:30px
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    column-gap: 20px
+    row-gap:30px
+.market__main__news
+    position: relative
+    display: flex
+    flex-direction: column
+    width:596px
+    height: 430px
+.market__main__news__img
+    // background-image: url(../images/src/news/glass.png)
+    width: 100%
+    height: 100%
+    position: absolute 
+    z-index: 0
+.market__main__news__title
+    z-index: 5
+    display: flex
+    justify-content: center
+    align-items: center
+    padding: 7px 15px
+    width: 95px
+    height: 32px
+    border-radius: 30px
+    text-align: end
+    margin-left: 449px
+    margin-top:29px
+
+
+
+.market__main__news__title span
+    font-family: 'GeomatryLight'
+    font-style: normal
+    font-weight: 500
+    font-size: 14px
+    line-height: 18px
+    display: flex
+    align-items: center
+    letter-spacing: -0.005em
+    color: #FFFFFF
+.market__main__news__info
+    z-index: 5
+.market__main__news__data
+    z-index: 5
+    font-family: 'GeomatryLight'
+    font-style: normal
+    font-weight: 400
+    font-size: 12px
+    line-height: 15px
+    display: flex
+    align-items: center
+    letter-spacing: -0.005em
+    text-transform: uppercase
+    color: #FFFFFF
+    margin-left:23px
+    margin-top:269px
+.market__main__news__name
+    margin-left:23px
+    margin-top:14px
+    z-index: 10
+.market__main__news__name a
+    z-index: 10
+    font-family: 'GeomatryLight'
+    font-style: normal
+    font-weight: 500
+    font-size: 18px
+    line-height: 23px
+    display: flex
+    align-items: center
+    letter-spacing: -0.005em
+    color: #FFFFFF
+
+.market__main__cards
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    column-gap: 20px
+    row-gap:30px
+
+.market__main__card
+    display: flex
+    width:288px
+    height:430px
+    flex-direction: column
+
+.market__main__card__header
+    position: relative
+    height:215px
+    width: 288px
+    display: flex
+    justify-content: end
+
+.market__main__card__header__img
+    // background-image: url(../images/src/news/wooman.png)
+    position: absolute 
+    width: 100%
+    height: 100%
+    z-index: 0
+
+.market__main__card__header__titile span
+    font-family: 'GeomatryMedium'
+    font-style: normal
+    font-weight: 500
+    font-size: 14px
+    line-height: 18px
+    display: flex
+    align-items: center
+    letter-spacing: -0.005em
+    color: #FFFFFF
+
+.market__main__card__main
+    display: flex
+    flex-direction: column
+    height: 215px
+    padding-left: 28px
+    padding-right: 28px
+    background: #FFFFFF
+    border: 0.5px solid #969696
+.market__main__card__main__data
+    font-family: 'Geometria'
+    font-style: normal
+    font-weight: 400
+    font-size: 12px
+    line-height: 15px
+    display: flex
+    align-items: center
+    letter-spacing: -0.005em
+    text-transform: uppercase
+    color: #8C7F77
+    margin-top:30px
+  
+.market__main__card__main__title 
+     margin-top:10px
+.market__main__card__main__title a
+    font-family: 'GeomatryMedium'
+    font-style: normal
+    font-weight: 500
+    font-size: 16px
+    line-height: 20px
+    letter-spacing: -0.005em
+    color: #000000
+    
+.market__main__card__main__title a
+    &:hover
+      border-bottom: 0.5px solid black  
+
+.market__main__card__main__subtitle
+    font-family: 'GeomatryLight'
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    line-height: 140.8%
+    letter-spacing: -0.005em
+    color: #6A6A79
+    margin-top:10px
+.market__main__btns
+    margin-top:10px
+    height: 37px
+    display: flex
+    justify-content: center
+    align-items: center
+.market__main__btn
+    width: 10px
+    height: 10px
+    background: #D9D9D9   
+._btn_active
+    background: #8C7F77 
+.market__main__btns__container
+    width:50px
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    margin-right: 5px
+
+@media screen and ( max-width:1250px )
+
+ .market__main div
+     &:nth-child(n+5)
+       display: none
+ .market__main 
+     flex-direction: row
+     flex-wrap: wrap
+     row-gap:70px
+ .market__container
+     padding-left: 40px
+     padding-right: 40px
+ .market__main__news
+     max-width:940px
+     width: 100%
+     height: 430px
+ .market__main__news__img
+    //  background-image: url(../images/src/news/glassmiddle.png)
+     z-index: 0
+ .market__main__news__title
+     margin-left: 789px
+     margin-top:29px
+ .market__main__card
+    width:460px
+    height:430px
+ .market__main__card__header
+    width: 460px
+
+ .market__main__card__header__img
+    background-size: no-repeat
+    background-size: cover
+    background-repeat: no-repeat
+ .market
+    height: 2000px
+ .market__main__news__data
+    margin-top:230px
+ .market__main__news__name
+    margin-left:20px
+    z-index: 5
+
+@media screen and ( max-width:1038px )
+    
+  .market__main__news
+     max-width:728px
+     height: 430px
+  .market__main__news__title
+     margin-left: 580px 
+  .market__main__card
+    width:359px
+    height:430px
+  .market__main__card__header
+    width: 460px
+    width:359px
+@media screen and ( max-width:836px )
+ .market__main__news
+     max-width:528px
+     height: 430px
+ .market__main__news__title
+     margin-left: 380px 
+ .market__main
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+ .market
+    height: 2950px
+ .market__main__cards
+    justify-content: center
+    align-items: center
+ .market__main__card
+    width:528px
+    height:430px
+ .market__main__card__header
+     width:528px
+ .market__main__card__header__img
+      width:528px
+@media screen and ( max-width:640px )
+ .market__container
+     padding: 0px
+ .market__header
+     flex-direction: column
+ .market__nav
+     width:300px
+ .market__nav__items 
+    justify-content: space-between
+ .market__nav__items a
+      margin:0px 
+@media screen and ( max-width:540px )
+ .market__main__news
+     width:320px
+     height: 430px
+ .market__main__news__img
+    //  background-image: url(../images/src/news/glasssmall.png)
+     z-index: 0
+ .market__main__news__title
+     margin-left: 180px 
+ .market__main__card
+    width:320px
+    height:430px
+ .market__main__card__header
+    width: 320px
+ .market__main__card__header__img
+     width: 320px
+
+
+.market__main__card__header__titile
+    z-index: 5
+    display: flex
+    justify-content: center
+    align-items: center
+ 
+    width: 95px
+    height: 32px
+    background: #6DCBFF
+    border-radius: 30px
+    margin-top:29px
+    margin-right:21px
+
+.bg-economy
+    display: flex
+    justify-content: center
+    align-items: center
+    background: #77B885
+    width: 95px
+    height: 32px
+    border-radius: 30px
+    padding: 7px 15px
+.bg-finance
+    display: flex
+    justify-content: center
+    background: #FF6D6D
+    width: 95px
+    height: 32px
+    border-radius: 30px
+    padding: 7px 15px
+.bg-business
+    display: flex
+    justify-content: center
+    background: #9C6DFF
+    width: 95px
+    height: 32px
+    border-radius: 30px
+    padding: 7px 15px
+    
